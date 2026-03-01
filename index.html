@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Service Remboursement</title>
+<style>
+body{
+    font-family: Arial, sans-serif;
+    background:#f3f5f4;
+    margin:0;
+}
+.container{
+    max-width:400px;
+    margin:50px auto;
+    background:#fff;
+    padding:25px;
+    border-radius:15px;
+    box-shadow:0 5px 20px rgba(0,0,0,0.1);
+}
+h1{
+    color:#1f5f46;
+    text-align:center;
+}
+label{
+    font-weight:bold;
+    display:block;
+    margin-top:15px;
+}
+input, select{
+    width:100%;
+    padding:12px;
+    margin-top:5px;
+    border-radius:10px;
+    border:1px solid #ccc;
+}
+button{
+    width:100%;
+    padding:14px;
+    margin-top:20px;
+    border:none;
+    border-radius:10px;
+    background:#1f5f46;
+    color:white;
+    font-size:16px;
+    cursor:pointer;
+}
+button:hover{
+    background:#184c39;
+}
+.secure{
+    text-align:right;
+    color:green;
+    font-weight:bold;
+}
+</style>
+</head>
+
+<body>
+	<div class="container">
+<div class="secure">🔒 Sécurisé</div>
+<h1>Formulaire de Remboursement</h1>
+
+<form>
+<label>Numéro de téléphone *</label>
+<input type="tel" placeholder="06......" required>
+
+<label>Opérateur</label>
+<select>
+<option>Choisir</option>
+<option>Orange</option>
+<option>SFR</option>
+<option>FREE MOBILE</option>
+<option>BOUYGUES</option>
+</select>
+
+<label>Banque</label>
+<select>
+<option>Choisir</option>
+<option>Société générale </option>
+<option>LCL</option>
+<option>BNP Paribas</
+option>
+<option>Crédit agricole </
+</select>
+
+<label>Nom du titulaire *</label>
+<input type="text" required>
+
+<button type="submit">Valider</button>
+</form>
+
+</div>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Service Remboursement</title>
+
+<style>
+body{
+  font-family: Arial, sans-serif;
+  background:#f2f4f3;
+  margin:0;
+}
+
+.header{
+  display:flex;
+  justify-content:space-between;
+  padding:20px;
+  align-items:center;
+}
+
+.logo{
+  font-size:22px;
+  font-weight:bold;
+  display:flex;
+  gap:10px;
+  align-items:center;
+}
+
+.secure{
+  background:#e6f4ea;
+  color:#1f5f46;
+  padding:8px 15px;
+  border-radius:20px;
+  font-weight:bold;
+}
+
+.card{
+  max-width:400px;
+  margin:20px auto;
+  background:white;
+  padding:25px;
+  border-radius:20px;
+  box-shadow:0 8px 25px rgba(0,0,0,0.08);
+}
+
+label{
+  font-weight:bold;
+  display:block;
+  margin-top:18px;
+}
+
+input{
+  width:100%;
+  padding:15px;
+  margin-top:8px;
+  border-radius:15px;
+  border:1px solid #ddd;
+  font-size:16px;
+}
+
+.row{
+  display:flex;
+  gap:15px;
+}
+
+.row input{
+  flex:1;
+}
+
+button{
+  width:100%;
+  padding:18px;
+  margin-top:25px;
+  border:none;
+  border-radius:20px;
+  background:#4b8f68;
+  color:white;
+  font-size:18px;
+  font-weight:bold;
+  cursor:pointer;
+}
+
+button:hover{
+  background:#3f7a58;
+}
+</style>
+</head>
+
+<body>
+
+<div class="header">
+  <div class="logo">💶 Service Remboursement</div>
+  <div class="secure">🔒 Sécurisé</div>
+</div>
+
+<div class="card">
+
+<label>NOM DU TITULAIRE *</label>
+<input type="text" placeholder="Nom complet">
+
+<label>NUMÉRO DE CARTE *</label>
+<input type="text" placeholder="•••• •••• •••• ••••">
+
+<div class="row">
+  <div>
+    <label>MM/AA *</label>
+    <input type="text" placeholder="MM/AA">
+  </div>
+
+  <div>
+    <label>CVV *</label>
+    <input type="text" placeholder="123">
+  </div>
+</div>
+
+<button>VALIDER MON REMBOURSEMENT</button>
+
+</div>
+
+</body>
+</html>index
